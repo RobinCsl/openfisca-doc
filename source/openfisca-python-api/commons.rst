@@ -4,6 +4,10 @@ Commons
 
 .. module:: openfisca_core.commons
 
+.. autoclass:: MethodDescriptor
+    :members:
+    :special-members: __get__, __set__
+
 .. autoclass:: Dummy
     :members:
 
