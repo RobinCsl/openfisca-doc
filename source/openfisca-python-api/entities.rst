@@ -19,3 +19,4 @@ Entities
 
 .. autofunction:: build_entity
 .. autofunction:: check_role_validity
+.. autofunction:: check_variable_defined_for_entity
