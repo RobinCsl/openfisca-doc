@@ -15,6 +15,7 @@ Entities
 
 .. autoclass:: RoleBuilder
     :members:
+    :special-members: __call__
 
 .. autofunction:: build_entity
 .. autofunction:: check_role_validity
