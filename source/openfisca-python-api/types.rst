@@ -8,6 +8,9 @@ Types
     :members:
     :special-members: __call__
 
+.. autoclass:: Choosable
+    :members:
+
 .. autoclass:: Descriptable
     :members:
     :special-members: __get__, __set__
