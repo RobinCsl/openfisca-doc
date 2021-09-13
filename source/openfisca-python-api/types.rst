@@ -5,5 +5,5 @@ Types
 .. automodule:: openfisca_core.types
     :members:
 
-.. automodule:: openfisca_core.types.data_types.arrays
+.. automodule:: openfisca_core.types._data_types
     :members:
