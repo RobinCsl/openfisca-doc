@@ -66,8 +66,12 @@ suppress_warnings = ['image.nonlocal_uri']
 
 
 def missing_reference(app, env, node, contnode):
-    if node["reftype"] == "class" and node["reftarget"] == "NDArray":
-        return contnode
+    if node["reftype"] == "class":
+        if node["reftarget"] == "NDArray":
+            return contnode
+
+        if node["reftarget"] == "int16":
+            return contnode
 
 
 def setup(app):
