@@ -22,7 +22,7 @@ Modules:
    simulation_generator
    periods
    errors
-   types
+   typing
 ```
 
 Scripts:
