@@ -13,8 +13,10 @@ git config --global user.name "OpenFisca-Bot"
 git config --global user.email "bot@openfisca.org"
 git diff-index --quiet HEAD || git commit --message="[skip ci] Update doc"
 git push https://github.com/openfisca/openfisca.org.git gh-pages
-if git status --untracked-files=no ; then
+if git status --untracked-files=no
+then
 	echo "There was an issue pushing to openfisca.org"
+	exit 1
 fi
 rm --recursive --force $(git ls-files | grep --invert-match doc)  # remove all files in the branch except the doc file.
 
