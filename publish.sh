@@ -3,9 +3,9 @@
 set -ex
 
 git clone --branch gh-pages https://github.com/openfisca/openfisca.org.git
-mv build/html doc
 rm --recursive --force openfisca.org/doc
-mv doc openfisca.org/doc
+mv build/html openfisca.org/doc
+
 cd openfisca.org
 git fetch  # Make sure we are up to date with git remote branches
 git add --all
