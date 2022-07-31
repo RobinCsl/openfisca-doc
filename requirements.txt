@@ -1,4 +1,4 @@
---editable git+https://github.com/openfisca/openfisca-core.git@master#egg=OpenFisca-Core[dev]
+--editable git+https://github.com/openfisca/openfisca-core.git@fix-day-periods#egg=OpenFisca-Core[dev]
 guzzle_sphinx_theme==0.7.11
 myst-parser==0.17.2
 sphinx-autobuild==2021.3.14
